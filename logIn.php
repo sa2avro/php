@@ -12,8 +12,8 @@ session_start();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CoutDown Lance Website</title>
-    <?php include "css/style.css" ?>
-    <?php include "link/links.php" ?>
+    <?php include "style.css" ?>
+    <?php include "links.php" ?>
 </head>
 
 <body>
@@ -70,7 +70,7 @@ if(isset($_POST['logIn'])){
 
 
     <div class="container">
-        <img src="images/logo.png" class="logo">
+        <img src="logo.png" class="logo">
         <div class="regis">
 
 
@@ -86,12 +86,12 @@ if(isset($_POST['logIn'])){
                 <input type="email" name="email" id="" placeholder="Email:">
                 <input type="password" name="password" id="" placeholder="Password:">
                 
-                <button type="submit" name="logIn" class="regb">Login <img src="./images/triangle.png"></button>
+                <button type="submit" name="logIn" class="regb">Login <img src="triangle.png"></button>
 
             </form>
             <p class="down">Have a account? <a href="reg.php" class="downa">Register</a></p>
         </div>
-        <img src="images/rocket.png" class="rocket">
+        <img src="rocket.png" class="rocket">
     </div>
 
 </body>
