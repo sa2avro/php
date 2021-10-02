@@ -1,0 +1,189 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 8%;
+    position: relative;
+}
+.logo{
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+
+}
+.content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.content h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.content h1 span{
+    color: #ff3753;
+}
+
+button,.logOut{
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 8px 25px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+button img,.logOut img{
+    width: 12px;
+    margin-left: 15px;
+}
+button:hover{
+    background:#ff3753;
+}
+.lauching{
+    display: flex;
+}
+.lauching div{
+    flex-basis: 100px;
+}
+.lauching div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+.logOut{
+    position: absolute;
+    top: 0;
+    right: 8%;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.logOut:hover{
+    background: #ff3753;
+
+}
+.rocket{
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+@keyframes rocket{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    100%{
+        bottom: 105%;
+        opacity: 1;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+i.fa-facebook{
+    color: #fff;
+    margin-right: 5px;
+    font-size: 20px;
+   
+}
+i.fa-google{
+    color:   #fff;
+    margin-right: 8px;
+    font-size: 20px;
+}
+.ankor{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fg{
+    padding: 12px 30px;
+    font-weight: 600;
+    border: 2px solid #ff3753;
+    background: #ff3753;
+    transition: 0.5s;
+}
+.fg:hover{
+    border: 2px solid #fff; 
+    background: transparent;
+}
+.regb:hover{
+    background: #ff3753;
+}
+.regis{
+    padding: 20px 0;
+}
+.regis form{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.regis form input{
+    width: 60%;
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+}
+h1{
+    font-size: 50px;
+    color: #fff;
+}
+p{
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.down{
+    padding-top: 20px;
+    font-size: 15px;
+}
+.downa{
+    color: #ff3753;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+.para{
+    text-align: left;
+}
+
+.lauching{
+    display: flex;
+    margin-bottom: 30px;
+   
+}
+.lauching div{
+    flex-basis: 100px;
+  
+}
+.lauching div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+    text-align: left;
+}
+
+
+</style>
