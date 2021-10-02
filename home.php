@@ -23,7 +23,7 @@ if(!isset($_SESSION['userName'])){
 
 <body>
     <div class="container">
-        <img src="images/logo.png" class="logo">
+        <img src="logo.png" class="logo">
         <div class="content">
             <p class="para">Welcome! My Website </p>
             <h1>Hello! <span><?php echo  $_SESSION['userName'] ?></span> <br> Good Morning....</h1>
@@ -49,7 +49,7 @@ if(!isset($_SESSION['userName'])){
        
             <button type="button">Learn More <img src="./images/triangle.png"></button>
         </div>
-        <img src="images/rocket.png" class="rocket">
+        <img src="rocket.png" class="rocket">
         <a href="logOut.php" type="submit" class="logOut" name="logOut">LogOut <img src="./images/triangle.png"></a>
     </div>
 
